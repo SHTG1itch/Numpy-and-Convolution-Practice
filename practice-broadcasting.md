@@ -6,6 +6,7 @@ What is the result of the following operation? For reference, we have shown the 
 x = np.arange(3).reshape((3, 1))
 y = np.arange(3)
 x + y
+
 ```
 
 ## Rules of Broadcasting
@@ -63,3 +64,5 @@ Causes some Error
 _<i class="far fa-circle fa-fw"></i> Option 5_
 
 Other
+
+Answer is option 2
