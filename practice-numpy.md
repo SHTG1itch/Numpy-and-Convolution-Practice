@@ -10,7 +10,10 @@ What is the shape of the following `numpy.array`?
 
 ```python
 np.arange(14)
+
+shape is (14,)
 ```
+
 
 Including the formatting of the `tuple` , but do not include spaces. For example, if it is a tuple of length 1 write something like `(4,)` and if it is a tuple of length 2, write something like `(1,2)`. There should be no spaces in your answer.
 
@@ -25,6 +28,8 @@ What is the shape of `m` in the following code block?
 ```python
 x = np.arange(20).reshape((4, 5))
 m = x / 2 + 1
+
+shape is (4,5)
 ```
 
 Including the formatting of the `tuple` , but do not include spaces. For example, if it is a tuple of length 1 write something like `(4,)` and if it is a tuple of length 2, write something like `(1,2)`.
@@ -40,6 +45,8 @@ What is the shape of `m` in the following code block?
 ```python
 x = np.arange(20).reshape((4, 5))
 m = x[1:, 2:4]
+
+shape is (3,2)
 ```
 
 Including the formatting of the `tuple` , but do not include spaces. For example, if it is a tuple of length 1 write something like `(4,)` and if it is a tuple of length 2, write something like `(1,2)`. There should be no spaces in your answer.
@@ -73,6 +80,8 @@ _<i class="far fa-circle fa-fw"></i> Option 2_
 _<i class="far fa-circle fa-fw"></i> Option 3_
 
 `x[(x > 10) & ~(x % 3 == 0)]`
+
+answer is option 3
 
 ## Question 4
 
@@ -143,3 +152,5 @@ _<i class="far fa-circle fa-fw"></i> Option 8_
 _<i class="far fa-circle fa-fw"></i> Option 9_
 
 `axs[1, 4]`
+
+answer is option 7
